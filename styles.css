@@ -31,22 +31,57 @@ body {
     border: none; /* S'assurer qu'il n'y a pas de bordures ajoutant des marges */
     background-color: rgba(255, 255, 255, 0.1);
 }
-
+#startButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 62px;
+    cursor: pointer;
+    z-index: 100;
+    background-color: transparent;
+    border: none;
+    color: white; /* Assurez-vous que la couleur du texte est visible selon le fond */
+}
+#gameOverMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 200;
+    color: white;
+    font-size: 36px;
+}
+.hidden {
+    display: none;
+}
+#tryAgainButton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
 #title {
     position: absolute;
     top: -0.1cm;
     left: 0cm;
     color: white;
-    font-size: 48px; /* ajuster la taille de la police */
+    font-size: 48px; /* Double la taille de la police */
     font-weight: bold;
     z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
 }
 #title-vertical {
-    position: absolute; 
+    position: absolute;
     top: 1.3cm;
     left: 0cm;
     color: white;
-    font-size: 62px; /* ajuster la taille */
+    font-size: 62px; /* juster taille */
     font-weight: bold;
     line-height: 1; /* Pour ajuster l'espacement entre les lettres */
     z-index: 20;
@@ -56,7 +91,7 @@ body {
     top: 1.3cm;
     left: 1.5cm;
     color: white;
-    font-size: 28px; /* ajuster la taille */
+    font-size: 28px; /* ajuster taille */
     font-weight: bold;
     line-height: 1; /* Pour ajuster l'espacement entre les lettres */
     z-index: 20;
@@ -66,7 +101,7 @@ body {
     top: 1.2cm;
     left: 2.2cm;
     color: white;
-    font-size: 32px; /* ajuster la taille de la police */
+    font-size: 32px; /* Double la taille de la police */
     font-weight: bold;
     z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
 }
@@ -75,7 +110,7 @@ body {
     top: 0cm;
     left: 4.5cm;
     color: white;
-    font-size: 10px; 
+    font-size: 10px; /* ajuster taille */
     font-weight: bold;
     line-height: 1; /* Pour ajuster l'espacement entre les lettres */
     z-index: 20;
@@ -184,13 +219,85 @@ body {
     line-height: 1; /* Pour ajuster l'espacement entre les lettres */
     z-index: 20;
 }
+#title8 {
+    position: absolute;
+    top: 10.9cm;;
+    left: 1.2cm;
+    color: white;
+    font-size: 15px; /* Double la taille de la police */
+    font-weight: bold;
+    z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
+}
+#title9 {
+    position: absolute;
+    top: 11.3cm;;
+    left: 0.7cm;
+    color: white;
+    font-size: 22px; /* Double la taille de la police */
+    font-weight: bold;
+    z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
+}
 #title-vertical9 {
     position: absolute;
-    top: 10.9cm;
+    top: 11.9cm;
     left: 0.9cm;
     color: white;
-    font-size: 75px; /* ajuster taille */
+    font-size: 50px; /* ajuster taille */
     font-weight: bold;
     line-height: 1; /* Pour ajuster l'espacement entre les lettres */
     z-index: 20;
+}
+#title10 {
+    position: absolute;
+    top: 12cm;;
+    left: 1.7cm;
+    color: white;
+    font-size: 9px; /* Double la taille de la police */
+    font-weight: bold;
+    z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
+}
+#title11 {
+    position: absolute;
+    top: 12.2cm;;
+    left: 1.7cm;
+    color: white;
+    font-size: 25px; /* Double la taille de la police */
+    font-weight: bold;
+    z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
+}
+#title-vertical10 {
+    position: absolute;
+    top: 12.9cm;
+    left: 2.1cm;
+    color: white;
+    font-size: 50px; /* ajuster taille */
+    font-weight: bold;
+    line-height: 1; /* Pour ajuster l'espacement entre les lettres */
+    z-index: 20;
+}
+#title-vertical11 {
+    position: absolute;
+    top: 12.9cm;
+    left: 3.3cm;
+    color: white;
+    font-size: 38px; /* ajuster taille */
+    font-weight: bold;
+    line-height: 1; /* Pour ajuster l'espacement entre les lettres */
+    z-index: 20;
+}
+#score {
+    position: absolute;
+    top: 4cm;
+    right: 2px;
+    color: white;
+    font-size: 150px;
+    z-index: 100;
+}
+#bestScore {
+    position: absolute;
+    top: 295px;
+    right: 50px;
+    color: white;
+    font-size: 18px;
+    z-index: 100;
 }
