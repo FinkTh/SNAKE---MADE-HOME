@@ -175,15 +175,6 @@ body {
 }
 #title4 {
     position: absolute;
-    top: 10.2cm;;
-    left: 0cm;
-    color: white;
-    font-size: 27px; /* Double la taille de la police */
-    font-weight: bold;
-    z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
-}
-#title5 {
-    position: absolute;
     top: -0.4cm;;
     left: 5.3cm;
     color: white;
@@ -191,7 +182,7 @@ body {
     font-weight: bold;
     z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
 }
-#title6 {
+#title5 {
     position: absolute;
     top: 9.3cm;;
     left: 0cm;
@@ -200,7 +191,7 @@ body {
     font-weight: bold;
     z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
 }
-#title7 {
+#title6 {
     position: absolute;
     top: 9.8cm;;
     left: 0cm;
@@ -211,79 +202,32 @@ body {
 }
 #title-vertical8 {
     position: absolute;
-    top: 10.9cm;
-    left: 0.1cm;
+    top: 10.3cm;
+    left: 0cm;
     color: white;
-    font-size: 34px; /* ajuster taille */
+    font-size: 65px; /* ajuster taille */
     font-weight: bold;
     line-height: 1; /* Pour ajuster l'espacement entre les lettres */
     z-index: 20;
 }
-#title8 {
+#title-vertical9 {
     position: absolute;
-    top: 10.9cm;;
-    left: 1.2cm;
+    top: 10.3cm;
+    left: 1.6cm;
+    color: white;
+    font-size: 40px; /* ajuster taille */
+    font-weight: bold;
+    line-height: 1; /* Pour ajuster l'espacement entre les lettres */
+    z-index: 20;
+}
+#title7 {
+    position: absolute;
+    top: 12.3cm;;
+    left: 2.5cm;
     color: white;
     font-size: 15px; /* Double la taille de la police */
     font-weight: bold;
     z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
-}
-#title9 {
-    position: absolute;
-    top: 11.3cm;;
-    left: 0.7cm;
-    color: white;
-    font-size: 22px; /* Double la taille de la police */
-    font-weight: bold;
-    z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
-}
-#title-vertical9 {
-    position: absolute;
-    top: 11.9cm;
-    left: 0.9cm;
-    color: white;
-    font-size: 50px; /* ajuster taille */
-    font-weight: bold;
-    line-height: 1; /* Pour ajuster l'espacement entre les lettres */
-    z-index: 20;
-}
-#title10 {
-    position: absolute;
-    top: 12cm;;
-    left: 1.7cm;
-    color: white;
-    font-size: 9px; /* Double la taille de la police */
-    font-weight: bold;
-    z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
-}
-#title11 {
-    position: absolute;
-    top: 12.2cm;;
-    left: 1.7cm;
-    color: white;
-    font-size: 25px; /* Double la taille de la police */
-    font-weight: bold;
-    z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
-}
-#title-vertical10 {
-    position: absolute;
-    top: 12.9cm;
-    left: 2.1cm;
-    color: white;
-    font-size: 50px; /* ajuster taille */
-    font-weight: bold;
-    line-height: 1; /* Pour ajuster l'espacement entre les lettres */
-    z-index: 20;
-}
-#title-vertical11 {
-    position: absolute;
-    top: 12.9cm;
-    left: 3.3cm;
-    color: white;
-    font-size: 38px; /* ajuster taille */
-    font-weight: bold;
-    line-height: 1; /* Pour ajuster l'espacement entre les lettres */
-    z-index: 20;
 }
 #score {
     position: absolute;
