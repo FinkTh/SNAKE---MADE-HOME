@@ -37,16 +37,16 @@ body {
     top: -0.1cm;
     left: 0cm;
     color: white;
-    font-size: 48px; /* Double la taille de la police */
+    font-size: 48px; /* ajuster la taille de la police */
     font-weight: bold;
     z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
 }
 #title-vertical {
-    position: absolute;
+    position: absolute; 
     top: 1.3cm;
     left: 0cm;
     color: white;
-    font-size: 62px; /* juster taille */
+    font-size: 62px; /* ajuster la taille */
     font-weight: bold;
     line-height: 1; /* Pour ajuster l'espacement entre les lettres */
     z-index: 20;
@@ -56,7 +56,7 @@ body {
     top: 1.3cm;
     left: 1.5cm;
     color: white;
-    font-size: 28px; /* ajuster taille */
+    font-size: 28px; /* ajuster la taille */
     font-weight: bold;
     line-height: 1; /* Pour ajuster l'espacement entre les lettres */
     z-index: 20;
@@ -66,7 +66,7 @@ body {
     top: 1.2cm;
     left: 2.2cm;
     color: white;
-    font-size: 32px; /* Double la taille de la police */
+    font-size: 32px; /* ajuster la taille de la police */
     font-weight: bold;
     z-index: 20; /* Pour s'assurer qu'il soit au-dessus du canvas */
 }
@@ -75,7 +75,7 @@ body {
     top: 0cm;
     left: 4.5cm;
     color: white;
-    font-size: 10px; /* ajuster taille */
+    font-size: 10px; 
     font-weight: bold;
     line-height: 1; /* Pour ajuster l'espacement entre les lettres */
     z-index: 20;
